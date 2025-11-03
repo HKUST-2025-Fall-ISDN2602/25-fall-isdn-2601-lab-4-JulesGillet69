@@ -2,8 +2,8 @@
 
 #define IN1   32  // Replace the ? with the GPIO pin you selected to connect IN1
 #define IN2   33   // Replace the ? with the GPIO pin you selected to connect IN2
-#define A   34// Replace the ? with the GPIO pin you selected to connect encoder A
-#define B   35// Replace the ? with the GPIO pin you selected to connect encoder B
+#define A   25// Replace the ? with the GPIO pin you selected to connect encoder A
+#define B   26// Replace the ? with the GPIO pin you selected to connect encoder B
 
 
 int A_data;
@@ -30,7 +30,7 @@ void loop() {
         if (command == "C") {
             // clockwise rotation
             digitalWrite(IN1, LOW);
-            digitalWrite(IN2, HIGH; 
+            digitalWrite(IN2, HIGH); 
 
         } 
         else if (command == "A") { 
